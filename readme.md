@@ -1,10 +1,12 @@
+</br></br>
+⚠️This is currently under development! ⚠️
+</br></br></br>
+
 DeepEM: A Deep <i>Neural Network</i> for DEM Inversion
 ============================================
 *Paul Wright*
 
-**This is a working directory for a fully trained CNN for DEM Inversion.**
-
-The model is as follows:
+The model (deepEM_model_cnn.pth) is as follows:
 
 ```python
 model = nn.Sequential(
@@ -24,6 +26,6 @@ model.load_state_dict(torch.load(dem_model_file))
 
 This originates from the Gitlab repo.
 
-<b>The model has been trained on the first 291 days in 2011</b>
+<b>The model has been trained on the first 291 days in 2011</b>.
 
---
+---
