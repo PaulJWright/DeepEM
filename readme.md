@@ -17,4 +17,5 @@ The `DeepEM` method presented here takes every DEM solution with no regards to t
 This notebook was developed with [PyTorch](https://pytorch.org/).
 
 <IMG SRC="./Misc/DeepEMGif2.gif" width="100%">
+  
 Example of the `DeepEM` solution for logT ~ 5.9 K, in comparison to the Sparse Inversion solution for the same temperature.
