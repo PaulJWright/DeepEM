@@ -22,13 +22,8 @@ Example of the `DeepEM` solution for logT ~ 5.9 K, in comparison to the Sparse I
 
 --
 
-DeepEM: A Deep Learning Approach for DEM Inversion
+Directory Structure
 ============================================
-AIA_DEM_2011-01-27.aia.npy	AIA_DEM_2011-02-22.status.npy
-AIA_DEM_2011-01-27.emcube.npy	AIA_DEM_2011-03-20.aia.npy
-AIA_DEM_2011-01-27.status.npy	AIA_DEM_2011-03-20.emcube.npy
-AIA_DEM_2011-02-22.aia.npy	AIA_DEM_2011-03-20.status.npy
-AIA_DEM_2011-02-22.emcube.npy	AIA_Resp.npy
 
     .
     ├── DeepEMData                            # Files required for DeepEM.ipynb
@@ -43,6 +38,7 @@ AIA_DEM_2011-02-22.emcube.npy	AIA_Resp.npy
     │   ├── AIA_DEM_2011-03-20.status.npy     #  ...  STATUS 
     │   └── AIA_Resp.npy                      # AIA Temp. Responses
     ├── DeepEM_Deep_Neural_Net                # Working directory for a fully trained NN for DEM Inversion
+    │   └── ...                                 This is currently in development.
     ├── Misc                                  # Files required for README.md
     │   ├── DeepEMGif2.gif
     │   ├── EqOne.png
