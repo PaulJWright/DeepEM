@@ -4,7 +4,6 @@
 contact me for more info!
 </br></br></br>
 
->>>>>>> 9076bf07273e4fdfca58bcc84b3efe13b99aa1b8
 DeepEM: A Deep <i>Neural Network</i> for DEM Inversion
 ============================================
 *Paul Wright*
