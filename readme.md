@@ -19,3 +19,38 @@ This notebook was developed with [PyTorch](https://pytorch.org/).
 <IMG SRC="./Misc/DeepEMGif2.gif" width="100%">
   
 Example of the `DeepEM` solution for logT ~ 5.9 K, in comparison to the Sparse Inversion solution for the same temperature.
+
+--
+
+DeepEM: A Deep Learning Approach for DEM Inversion
+============================================
+AIA_DEM_2011-01-27.aia.npy	AIA_DEM_2011-02-22.status.npy
+AIA_DEM_2011-01-27.emcube.npy	AIA_DEM_2011-03-20.aia.npy
+AIA_DEM_2011-01-27.status.npy	AIA_DEM_2011-03-20.emcube.npy
+AIA_DEM_2011-02-22.aia.npy	AIA_DEM_2011-03-20.status.npy
+AIA_DEM_2011-02-22.emcube.npy	AIA_Resp.npy
+
+    .
+    ├── DeepEMData                            # Files required for DeepEM.ipynb
+    │   ├── AIA_DEM_2011-01-27.aia.npy        # Train AIA
+    │   ├── AIA_DEM_2011-01-27.emcube.npy     #   ...  DEM
+    │   ├── AIA_DEM_2011-01-27.status.npy     #  ...  STATUS  
+    │   ├── AIA_DEM_2011-02-22.aia.npy        # Valdn AIA
+    │   ├── AIA_DEM_2011-02-22.emcube.npy     #  ...  DEM
+    │   ├── AIA_DEM_2011-02-22.status.npy     #  ...  STATUS
+    │   ├── AIA_DEM_2011-03-20.aia.npy        # Test  AIA
+    │   ├── AIA_DEM_2011-03-20.emcube.npy     #  ...  DEM
+    │   ├── AIA_DEM_2011-03-20.status.npy     #  ...  STATUS 
+    │   └── AIA_Resp.npy                      # AIA Temp. Responses
+    ├── DeepEM_Deep_Neural_Net                # Working directory for a fully trained NN for DEM Inversion
+    ├── Misc                                  # Files required for README.md
+    │   ├── DeepEMGif2.gif
+    │   ├── EqOne.png
+    │   └── README.md
+    ├── SDO2018_Workshop                      # Presentation given at SDO LWS 2018 conference (Gent, Belgium) 
+    │   └── DeepEM_Workshop.pdf               # PDF Presentation
+    ├── DeepEM.ipynb                          # DeepEM Notebook
+    └── README.md                             # README.md (this file)
+    
+  
+
