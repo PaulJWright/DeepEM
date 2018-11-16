@@ -49,4 +49,9 @@ Directory Structure
     └── README.md                             # README.md (this file)
     
   
+FAQS:
+============================================
 
+* <b>Why have we chosen to use Basis Pursuit (Cheung et al 2015)></b> The idea originated from Mark Cheung, and we had a set of Basis Pursuit solutions ready for training. We actively encourage users to use their favourite DEM method, and we are currently considering training the DEM on solutions from multiple DEM codes.
+
+* <b>Are you able to trust the pixels DeepEM "fills" in?</b> <i>Yes</i>. The neural network learns a general transformation from AIA values to DEM solutions, from the training data. It is being trained on ~2.6 Million sets of AIA observations and DEM solutions (our training set is 6x512x512 and 18x512x512). When we test the trained neural network on the "test set" (data that the neural network has never seen before), DeepEM recovers DEMs that are nearly identical to the DEMs obtained from Basis Pursuit. We are able to trust the pixels it "fills" in because the trained neural network was able to accurately recover DEMs where we can verify the quality of the solution.
