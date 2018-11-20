@@ -33,7 +33,7 @@ Directory Structure
     │   ├── AIA_DEM_2011-02-22.emcube.npy     #  ...  DEM
     │   ├── AIA_DEM_2011-02-22.status.npy     #  ...  STATUS
     │   ├── AIA_DEM_2011-03-20.aia.npy        # Test  AIA
-    │   ├── AIA_DEM_.emcube.npy     #  ...  DEM
+    │   ├── AIA_DEM_2011-03-20.emcube.npy     #  ...  DEM
     │   ├── AIA_DEM_2011-03-20.status.npy     #  ...  STATUS 
     │   └── AIA_Resp.npy                      # AIA Temp. Responses
     ├── DeepEM_Deep_Neural_Net                # Working directory for a fully trained NN for DEM Inversion
