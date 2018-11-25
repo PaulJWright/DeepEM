@@ -3,3 +3,10 @@
 ### Misc
 
 Misc. files for the main readme.md
+
+#### Gifs
+Additional gifs comparing SDO/DeepEM/Basis Pursuit for 171, 193, 211 (left to right).
+
+<IMG SRC="171.gif" width="32%">
+<IMG SRC="193.gif" width="32%">
+<IMG SRC="211.gif" width="32%">
