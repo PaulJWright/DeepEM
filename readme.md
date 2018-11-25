@@ -17,8 +17,8 @@ The `DeepEM` method presented here takes every DEM solution with no regards to t
 This notebook was developed with [PyTorch](https://pytorch.org/).
 
 <IMG SRC="./Misc/DeepEMGif2.gif" width="100%">
-  
-Example of the `DeepEM` solution for logT ~ 5.9 K, in comparison to the Sparse Inversion solution for the same temperature.
+
+Example of the `DeepEM` solution for logT ~ 5.9 K, in comparison to the Sparse Inversion solution for the same temperature. Additional Gifs can be found in `Misc/`
 
 
 Directory Structure
@@ -40,6 +40,9 @@ Directory Structure
     │   └── ...                                 This is currently in development.
     ├── Misc                                  # Files required for README.md
     │   ├── DeepEMGif2.gif
+    │   ├── 171.gif								# SDO/AIA 171~\AA gif
+    │   ├── 193.gif								# SDO/AIA 193~\AA gif
+    │   ├── 211.gif								# SDO/AIA 211~\AA gif
     │   ├── EqOne.png
     │   └── README.md
     ├── SDO2018_Workshop                      # Presentation given at SDO LWS 2018 conference (Gent, Belgium) 
