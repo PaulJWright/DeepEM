@@ -36,14 +36,13 @@ Directory Structure
     │   ├── AIA_DEM_2011-03-20.emcube.npy     #  ...  DEM
     │   ├── AIA_DEM_2011-03-20.status.npy     #  ...  STATUS 
     │   └── AIA_Resp.npy                      # AIA Temp. Responses
-    ├── DeepEM_Deep_Neural_Net                # Working directory for a fully trained NN for DEM Inversion
-    │   └── ...                                 This is currently in development.
     ├── Misc                                  # Files required for README.md
     │   ├── DeepEMGif2.gif
-    │   ├── 171.gif								# SDO/AIA 171~\AA gif
-    │   ├── 193.gif								# SDO/AIA 193~\AA gif
-    │   ├── 211.gif								# SDO/AIA 211~\AA gif
-    │   ├── EqOne.png
+    │   ├── 171.gif							  # SDO/AIA 171~\AA gif
+    │   ├── 193.gif							  # SDO/AIA 193~\AA gif
+    │   ├── 211.gif						      # SDO/AIA 211~\AA gif
+    |   ├── DeepEM_171_211.gif                # Combined 171/211~\AA gif
+    │   ├── EqOne.png                         # DEM equation
     │   └── README.md
     ├── SDO2018_Workshop                      # Presentation given at SDO LWS 2018 conference (Gent, Belgium) 
     │   └── DeepEM_Workshop.pdf               # PDF Presentation
