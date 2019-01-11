@@ -38,9 +38,9 @@ Directory Structure
     │   └── AIA_Resp.npy                      # AIA Temp. Responses
     ├── Misc                                  # Files required for README.md
     │   ├── DeepEMGif2.gif
-    │   ├── 171.gif							  # SDO/AIA 171~\AA gif
-    │   ├── 193.gif							  # SDO/AIA 193~\AA gif
-    │   ├── 211.gif						      # SDO/AIA 211~\AA gif
+    │   ├── 171.gif                           # SDO/AIA 171~\AA gif
+    │   ├── 193.gif                           # SDO/AIA 193~\AA gif
+    │   ├── 211.gif                           # SDO/AIA 211~\AA gif
     |   ├── DeepEM_171_211.gif                # Combined 171/211~\AA gif
     │   ├── EqOne.png                         # DEM equation
     │   └── README.md
