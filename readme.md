@@ -2,6 +2,8 @@ DeepEM: A Deep Learning Approach for DEM Inversion
 ============================================
 *by Paul Wright et al*
 
+[![DOI](https://zenodo.org/badge/155842845.svg)](https://zenodo.org/badge/latestdoi/155842845)
+
 The intensity observed through optically-thin SDO/AIA filters (94 Å, 131 Å, 171 Å, 193 Å, 211 Å, 335 Å) can be related to the temperature distribution of the solar corona (the differential emission measure; DEM) as
 
 <p align="center"><img src="./Misc/EqOne.png" width="200"></p>
