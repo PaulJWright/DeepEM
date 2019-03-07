@@ -27,7 +27,7 @@ Directory Structure
     .
     ├── DeepEMData                            # Files required for DeepEM.ipynb
     │   ├── AIA_DEM_2011-01-27.aia.npy        # Train AIA
-    │   ├── AIA_DEM_2011-01-27.emcube.npy     #   ...  DEM
+    │   ├── AIA_DEM_2011-01-27.emcube.npy     #  ...  DEM
     │   ├── AIA_DEM_2011-01-27.status.npy     #  ...  STATUS  
     │   ├── AIA_DEM_2011-02-22.aia.npy        # Valdn AIA
     │   ├── AIA_DEM_2011-02-22.emcube.npy     #  ...  DEM
