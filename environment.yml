@@ -1,0 +1,13 @@
+name: deepem
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8.*
+  - pytorch=1.8.*
+  - cudatoolkit=11.1
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
