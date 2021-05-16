@@ -3,6 +3,11 @@ DeepEM: A Deep Learning Approach for DEM Inversion
 *by Paul Wright et al*
 
 [![DOI](https://zenodo.org/badge/155842845.svg)](https://zenodo.org/badge/latestdoi/155842845)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/spaceml-org/helionb-sdoml/blob/main/notebooks/02_temperature_maps_2018/temperature_maps_colab.ipynb)
+
+May 2021: This work is available to be run (free-of-charge) on Google Colab (link above) using data on the Google Cloud Platform, courtesy of @spaceml-org (https://github.com/spaceml-org/helionb-sdoml/tree/main/notebooks/02_temperature_maps_2018)
+
+---
 
 The intensity observed through optically-thin SDO/AIA filters (94 Å, 131 Å, 171 Å, 193 Å, 211 Å, 335 Å) can be related to the temperature distribution of the solar corona (the differential emission measure; DEM) as
 
